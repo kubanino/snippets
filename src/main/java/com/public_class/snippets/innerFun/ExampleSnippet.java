@@ -1,4 +1,4 @@
-package com.public_class.snippets;
+package com.public_class.snippets.innerFun;
 
 import java.util.concurrent.ExecutorService;
 
