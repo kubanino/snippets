@@ -1,4 +1,4 @@
-package com.publicclass.snippets;
+package com.public_class.snippets;
 
 import java.util.concurrent.ExecutorService;
 
