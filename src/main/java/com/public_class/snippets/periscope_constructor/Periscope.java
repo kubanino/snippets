@@ -2,6 +2,7 @@ package com.public_class.snippets.periscope_constructor;
 
 import static org.apache.commons.lang3.StringUtils.EMPTY;
 
+// Kubanino @ https://public-class.com/
 public class Periscope
 {
     private String name;

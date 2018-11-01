@@ -6,6 +6,7 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 import java.util.HashMap;
 import java.util.Map;
 
+// Kubanino @ https://public-class.com/
 public class Car
 {
     private static final String OPEL = "OPEL";
@@ -21,7 +22,7 @@ public class Car
         carsCache.put(OPEL, new Car(OPEL));
     }
 
-    private Car(String name)
+    private Car(final String name)
     {
         this.name = name;
     }

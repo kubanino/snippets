@@ -7,6 +7,7 @@ import org.mockito.junit.MockitoJUnitRunner;
 import static com.public_class.snippets.staticFactoryMethod.Car.of;
 import static org.junit.Assert.assertEquals;
 
+// Kubanino @ https://public-class.com/
 @RunWith(MockitoJUnitRunner.class)
 public class CarTest
 {
