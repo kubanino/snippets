@@ -1,10 +1,10 @@
-package com.public_class.snippets.staticFactoryMethod;
+package com.public_class.snippets.static_factory_method;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import static com.public_class.snippets.staticFactoryMethod.Car.of;
+import static com.public_class.snippets.static_factory_method.Car.of;
 import static org.junit.Assert.assertEquals;
 
 // Kubanino @ https://public-class.com/

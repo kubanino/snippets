@@ -1,4 +1,4 @@
-package com.public_class.snippets.selfMimickBuilder;
+package com.public_class.snippets.self_mimick_builder;
 
 public abstract class Tool
 {

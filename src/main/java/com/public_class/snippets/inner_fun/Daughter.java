@@ -1,4 +1,4 @@
-package com.public_class.snippets.innerFun;
+package com.public_class.snippets.inner_fun;
 
 public class Daughter extends Mother
 {
