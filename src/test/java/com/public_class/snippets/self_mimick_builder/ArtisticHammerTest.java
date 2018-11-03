@@ -4,6 +4,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;
 
+import static com.public_class.snippets.self_mimick_builder.ArtisticHammer.DEFAULT_COLOR;
+import static com.public_class.snippets.self_mimick_builder.Hammer.DEFAULT_LENGTH;
+import static com.public_class.snippets.self_mimick_builder.Tool.DEFAULT_WEIGHT;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(MockitoJUnitRunner.class)
@@ -43,6 +46,18 @@ public class ArtisticHammerTest
         assertEquals(LENGTH, result.getLength());
         assertEquals(WEIGHT, result.getWeight());
         assertEquals(COLOR, result.getColor());
+    }
+
+    @Test
+    public void shouldBuildArtisticHammerWithDefaultParametersWhenPassingNoParametersUsingBuilderMethods()
+    {
+        // when
+        final ArtisticHammer result = new ArtisticHammer.Builder().build();
+
+        // then
+        assertEquals(DEFAULT_LENGTH, result.getLength());
+        assertEquals(DEFAULT_WEIGHT, result.getWeight());
+        assertEquals(DEFAULT_COLOR, result.getColor());
     }
 
 }

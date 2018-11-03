@@ -2,6 +2,8 @@ package com.public_class.snippets.self_mimick_builder;
 
 public class ArtisticHammer extends Hammer
 {
+    public static final String DEFAULT_COLOR = "Purple";
+
     private String color;
 
     ArtisticHammer(ArtisticHammer.Builder builder)
@@ -13,7 +15,7 @@ public class ArtisticHammer extends Hammer
     // ArtisticHammer.Builder extends upper class's builder, passing his own type
     public static class Builder extends Hammer.Builder<ArtisticHammer.Builder>
     {
-        String color;
+        String color = DEFAULT_COLOR;
 
         public ArtisticHammer.Builder withColor(String color)
         {

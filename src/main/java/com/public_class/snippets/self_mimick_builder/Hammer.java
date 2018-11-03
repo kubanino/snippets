@@ -2,6 +2,8 @@ package com.public_class.snippets.self_mimick_builder;
 
 public abstract class Hammer extends Tool
 {
+    public static final int DEFAULT_LENGTH = 13;
+
     private int length;
 
     Hammer(Hammer.Builder<?> builder)
@@ -18,7 +20,7 @@ public abstract class Hammer extends Tool
     // Hammer Builder accepts "T" of type "ArtisticHammer.Builder" and passes again the type to Tool.Builder
     public abstract static class Builder<T extends Hammer.Builder<T>> extends Tool.Builder<T>
     {
-        int length;
+        int length = DEFAULT_LENGTH;
 
         public T withLength(int length)
         {
