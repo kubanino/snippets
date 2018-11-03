@@ -7,7 +7,7 @@ public abstract class Tool
 
     private Double weight;
 
-    Tool(Builder<?> builder)
+    Tool(final Builder<?> builder)
     {
         weight = builder.weight;
     }
@@ -22,7 +22,7 @@ public abstract class Tool
     {
         Double weight = DEFAULT_WEIGHT;
 
-        public T withWeight(Double weight)
+        public T withWeight(final Double weight)
         {
             this.weight = weight;
             return self();

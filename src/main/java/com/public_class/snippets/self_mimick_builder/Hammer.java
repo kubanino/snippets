@@ -7,7 +7,7 @@ public abstract class Hammer extends Tool
 
     private int length;
 
-    Hammer(Hammer.Builder<?> builder)
+    Hammer(final Hammer.Builder<?> builder)
     {
         super(builder);
         length = builder.length;

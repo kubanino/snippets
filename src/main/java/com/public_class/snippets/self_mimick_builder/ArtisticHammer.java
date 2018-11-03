@@ -7,7 +7,7 @@ public class ArtisticHammer extends Hammer
 
     private String color;
 
-    ArtisticHammer(ArtisticHammer.Builder builder)
+    ArtisticHammer(final ArtisticHammer.Builder builder)
     {
         super(builder);
         this.color = builder.color;
@@ -18,7 +18,7 @@ public class ArtisticHammer extends Hammer
     {
         String color = DEFAULT_COLOR;
 
-        public ArtisticHammer.Builder withColor(String color)
+        public ArtisticHammer.Builder withColor(final String color)
         {
             this.color = color;
             return self();
