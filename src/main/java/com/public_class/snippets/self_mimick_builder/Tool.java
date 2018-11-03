@@ -1,5 +1,6 @@
 package com.public_class.snippets.self_mimick_builder;
 
+// Kubanino @ https://public-class.com/
 public abstract class Tool
 {
     public static final Double DEFAULT_WEIGHT = 12D;
