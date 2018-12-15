@@ -17,7 +17,7 @@ public abstract class Tool
         return weight;
     }
 
-    // "T" is the lowest level ArtisticHammer.Builder
+    // "T" could be the lowest level ArtisticHammer.Builder
     abstract static class Builder<T extends Builder<T>>
     {
         Double weight = DEFAULT_WEIGHT;
