@@ -3,6 +3,8 @@ package com.public_class.snippets.collections_usage;
 import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Random;
+import java.util.concurrent.ArrayBlockingQueue;
+import java.util.concurrent.PriorityBlockingQueue;
 
 import static java.lang.System.out;
 
@@ -35,6 +37,13 @@ public class QueueFun
         out.println("Ok, so does offer work?");
         out.println(queue.offer("Hello Man"));
 
+        out.println("What will happen if bounded queue is created?");
+        Queue<String> boundedQueue = new ArrayBlockingQueue<>(4);
 
+        for (int i = 0; i < 6; i++)
+        {
+            out.println("Sucess in adding? " + boundedQueue.offer("Test"));
+        }
+        boundedQueue.add("Exception");
     }
 }
