@@ -4,10 +4,10 @@ import java.util.PriorityQueue;
 import java.util.Queue;
 import java.util.Random;
 import java.util.concurrent.ArrayBlockingQueue;
-import java.util.concurrent.PriorityBlockingQueue;
 
 import static java.lang.System.out;
 
+// Kubanino @ https://public-class.com/
 public class QueueFun
 {
     private static final Random RANDOM = new Random();
