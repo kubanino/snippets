@@ -33,7 +33,7 @@ public class AggregateSimpleFun
         System.out.println(totalAgeOfFemales);
     }
 
-    private static class Human
+    public static class Human
     {
         enum Sex
         {
@@ -45,7 +45,7 @@ public class AggregateSimpleFun
         private final String name;
         private final Integer age;
 
-        private Human(String name, Sex sex, Integer age)
+        public Human(String name, Sex sex, Integer age)
         {
             this.name = name;
             this.sex = sex;
