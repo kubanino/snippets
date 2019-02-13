@@ -11,9 +11,9 @@ public class AggregateSimpleFun
 {
     public static void main(String[] args)
     {
-        Human husband = new Human("Jakub", Human.Sex.MALE);
-        Human wife = new Human("Ala", Human.Sex.FEMALE);
-        Human mother = new Human("Ala", Human.Sex.FEMALE);
+        Human husband = new Human("Jakub", Human.Sex.MALE, 32);
+        Human wife = new Human("Ala", Human.Sex.FEMALE, 55);
+        Human mother = new Human("Ala", Human.Sex.FEMALE, 12);
 
         List<Human> family = new ArrayList<>();
 
@@ -21,9 +21,16 @@ public class AggregateSimpleFun
         family.add(wife);
         family.add(mother);
 
-        long femaleHumansCount = family.stream().filter(h -> h.getSex().equals(Human.Sex.FEMALE)).count();
+        long femaleHumansCount = family.stream().
+                filter(h -> h.getSex().equals(Human.Sex.FEMALE)).
+                count();
+        int totalAgeOfFemales = family.stream().
+                filter(h -> h.getSex().equals(Human.Sex.FEMALE)).
+                mapToInt(Human::getAge).
+                reduce(0, (l, r) -> l + r);
 
         System.out.println(femaleHumansCount);
+        System.out.println(totalAgeOfFemales);
     }
 
     private static class Human
@@ -35,13 +42,14 @@ public class AggregateSimpleFun
         }
 
         private final Sex sex;
-
         private final String name;
+        private final Integer age;
 
-        private Human(String name, Sex sex)
+        private Human(String name, Sex sex, Integer age)
         {
             this.name = name;
             this.sex = sex;
+            this.age = age;
         }
 
         public Sex getSex()
@@ -52,6 +60,11 @@ public class AggregateSimpleFun
         public String getName()
         {
             return name;
+        }
+
+        public Integer getAge()
+        {
+            return age;
         }
 
         @Override
@@ -67,14 +80,14 @@ public class AggregateSimpleFun
             }
             Human human = (Human) o;
             return sex == human.sex &&
-                    Objects.equals(name, human.name);
+                    Objects.equals(name, human.name) &&
+                    Objects.equals(age, human.age);
         }
 
         @Override
         public int hashCode()
         {
-
-            return Objects.hash(sex, name);
+            return Objects.hash(sex, name, age);
         }
 
         @Override
@@ -83,6 +96,7 @@ public class AggregateSimpleFun
             return new ToStringBuilder(this)
                     .append("sex", sex)
                     .append("name", name)
+                    .append("age", age)
                     .toString();
         }
     }
