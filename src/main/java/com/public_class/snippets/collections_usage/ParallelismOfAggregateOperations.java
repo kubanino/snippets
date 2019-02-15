@@ -7,9 +7,9 @@ import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.concurrent.ConcurrentHashMap;
-import java.util.stream.Collectors;
 
-import static java.util.stream.Collectors.*;
+import static java.util.stream.Collectors.groupingByConcurrent;
+import static java.util.stream.Collectors.summingInt;
 
 // Kubanino @ https://public-class.com/
 public class ParallelismOfAggregateOperations
@@ -23,7 +23,7 @@ public class ParallelismOfAggregateOperations
 
         for (int i = 0; i < 12; i++)
         {
-            someInput.add((long)RANDOM.nextInt(500));
+            someInput.add((long) RANDOM.nextInt(500));
         }
         System.out.println(someInput);
 
