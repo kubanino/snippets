@@ -1,4 +1,4 @@
-package com.public_class.snippets.static_factory_method;
+package com.public_class.snippets.patterns.static_factory_method;
 
 import org.apache.commons.lang3.builder.EqualsBuilder;
 import org.apache.commons.lang3.builder.HashCodeBuilder;

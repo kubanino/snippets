@@ -1,4 +1,4 @@
-package com.public_class.snippets.periscope_constructor;
+package com.public_class.snippets.patterns.periscope_constructor;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

@@ -1,4 +1,4 @@
-package com.public_class.snippets.collections_usage;
+package com.public_class.snippets.generics;
 
 import java.util.ArrayList;
 import java.util.List;

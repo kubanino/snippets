@@ -1,12 +1,12 @@
-package com.public_class.snippets.self_mimick_builder;
+package com.public_class.snippets.patterns.self_mimick_builder;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.mockito.junit.MockitoJUnitRunner;
 
-import static com.public_class.snippets.self_mimick_builder.ArtisticHammer.DEFAULT_COLOR;
-import static com.public_class.snippets.self_mimick_builder.Hammer.DEFAULT_LENGTH;
-import static com.public_class.snippets.self_mimick_builder.Tool.DEFAULT_WEIGHT;
+import static com.public_class.snippets.patterns.self_mimick_builder.ArtisticHammer.DEFAULT_COLOR;
+import static com.public_class.snippets.patterns.self_mimick_builder.Hammer.DEFAULT_LENGTH;
+import static com.public_class.snippets.patterns.self_mimick_builder.Tool.DEFAULT_WEIGHT;
 import static org.junit.Assert.assertEquals;
 
 // Kubanino @ https://public-class.com/

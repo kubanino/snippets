@@ -1,4 +1,4 @@
-package com.public_class.snippets.self_mimick_builder;
+package com.public_class.snippets.patterns.self_mimick_builder;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
