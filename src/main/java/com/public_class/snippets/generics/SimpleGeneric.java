@@ -1,5 +1,7 @@
 package com.public_class.snippets.generics;
 
+import org.apache.commons.lang3.builder.ToStringBuilder;
+
 import java.util.Objects;
 
 /**
@@ -55,5 +57,21 @@ public class SimpleGeneric<T, S>
     {
 
         return Objects.hash(innerObject, anotherInnerObject);
+    }
+
+    @Override
+    public String toString()
+    {
+        return new ToStringBuilder(this)
+                .append("innerObject", innerObject)
+                .append("anotherInnerObject", anotherInnerObject)
+                .toString();
+    }
+
+    // and a simple usage
+    public static void main(String[] args)
+    {
+        final SimpleGeneric<String, Integer> something = new SimpleGeneric<>("I am", 25);
+        System.out.println(something);
     }
 }
