@@ -4,8 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 // Kubanino @ https://public-class.com/
-public class DeduceParameterTypeAndAddOneMoreElement
+public class DeduceParameterTypeAndAddOneMoreElement<T>
 {
+    // public static final T someType; <-- can not do this as well
+
     public static void main(String[] args)
     {
         List<Double> listOfDoubles = new ArrayList<>();
