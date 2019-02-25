@@ -18,7 +18,7 @@ public class InterruptionsWithExecutors
         executor.awaitTermination(1, TimeUnit.SECONDS);
 
         // how to kill just this task?
-        
+
     }
 
     @SuppressWarnings("Duplicates")
