@@ -13,6 +13,7 @@ public class Interruptions
         taskThread.join(1000); // give him 1000 seconds to finish
     }
 
+    @SuppressWarnings("Duplicates")
     private static Runnable giveMeCoolTask()
     {
         return () -> {
