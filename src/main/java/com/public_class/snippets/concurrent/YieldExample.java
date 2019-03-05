@@ -2,6 +2,7 @@ package com.public_class.snippets.concurrent;
 
 import java.util.Random;
 
+// Kubanino @ https://public-class.com/
 public class YieldExample
 {
     public static void main(String[] args)
