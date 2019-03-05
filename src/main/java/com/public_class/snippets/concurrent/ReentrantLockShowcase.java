@@ -40,7 +40,7 @@ public class ReentrantLockShowcase
         });
         t1.start();
         t2.start();
-        
+
         try
         {
             t1.join();
