@@ -33,11 +33,14 @@ public class ChannelsExample
         {
             System.out.println("Read " + bytesRead);
             buf.flip(); // buf was in read mode, after FLIP it is in read mode
+            buf.clear(); // it does nothing except of moving cursor
+            buf.mark(); // it marks the current position, which is ZERO at this point
             while (buf.hasRemaining()) // whatever is in the buffer is read and buffer pointer is moved
             {
                 System.out.print((char) buf.get());
             }
-            buf.rewind();
+            buf.rewind(); // moves back to zero
+            buf.reset(); // moves back to MARKED position, which is ZERO as well
             outChannel.write(buf);
             System.out.println();
             buf.clear();
