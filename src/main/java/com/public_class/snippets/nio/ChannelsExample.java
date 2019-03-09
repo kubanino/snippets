@@ -12,17 +12,20 @@ public class ChannelsExample
 {
     public static void main(String[] args) throws IOException // for some convenience this exception is here
     {
-        RandomAccessFile file;
+        RandomAccessFile inFile;
+        RandomAccessFile outFile;
         try
         {
-            file = new RandomAccessFile("data/nio-data.txt", "rw");
+            inFile = new RandomAccessFile("data/nio-data.txt", "rw");
+            outFile = new RandomAccessFile("data/nio-data-out.txt", "rw");
         }
         catch (FileNotFoundException e)
         {
             System.out.println("File not found");
             return;
         }
-        FileChannel inChannel = file.getChannel(); // Here you get channel
+        FileChannel inChannel = inFile.getChannel(); // Here you get channel
+        FileChannel outChannel = outFile.getChannel(); // Here you get channel
         ByteBuffer buf = ByteBuffer.allocate(8); // And here is Your awesome buffer
 
         int bytesRead = inChannel.read(buf); // it reads a portion of data, then moves file cursor
@@ -34,11 +37,14 @@ public class ChannelsExample
             {
                 System.out.print((char) buf.get());
             }
+            buf.rewind();
+            outChannel.write(buf);
             System.out.println();
             buf.clear();
             bytesRead = inChannel.read(buf); // reads from channel to buffer
         }
 
-        file.close(); // still need to close file
+        inFile.close(); // still need to close file
+        outFile.close(); // still need to close file
     }
 }
