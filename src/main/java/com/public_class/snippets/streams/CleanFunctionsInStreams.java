@@ -1,4 +1,4 @@
-package com.public_class.snippets.clean_functions_in_streams;
+package com.public_class.snippets.streams;
 
 import java.util.HashMap;
 import java.util.Map;
