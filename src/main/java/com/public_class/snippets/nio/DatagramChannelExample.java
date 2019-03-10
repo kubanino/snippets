@@ -8,6 +8,7 @@ import java.nio.ByteBuffer;
 import java.nio.channels.DatagramChannel;
 
 // http://tutorials.jenkov.com/java-nio/datagram-channel.html
+// // Kubanino @ https://public-class.com/
 public class DatagramChannelExample
 {
     public static void main(String[] args)
