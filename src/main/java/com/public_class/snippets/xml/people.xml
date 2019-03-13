@@ -1,0 +1,22 @@
+<?xml version="1.0" standalone="no" ?>
+
+<?xml-stylesheet type="text/xsl" href="people.xsl" ?>
+
+<people>
+    <husband employed="yes">
+        <name>Mark</name>
+        <age>45</age>
+        <wife>
+            <wname>Janet</wname>
+            <age>20</age>
+        </wife>
+    </husband>
+    <husband employed="no">
+        <name>Tom</name>
+        <age>42</age>
+        <wife>
+            <wname>Janet</wname>
+            <age>26</age>
+        </wife>
+    </husband>
+</people>
