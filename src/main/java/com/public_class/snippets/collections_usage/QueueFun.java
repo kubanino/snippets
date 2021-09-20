@@ -7,7 +7,6 @@ import java.util.concurrent.ArrayBlockingQueue;
 
 import static java.lang.System.out;
 
-// Kubanino @ https://public-class.com/
 public class QueueFun
 {
     private static final Random RANDOM = new Random();
