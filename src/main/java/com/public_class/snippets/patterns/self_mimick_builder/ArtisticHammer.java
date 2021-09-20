@@ -1,6 +1,5 @@
 package com.public_class.snippets.patterns.self_mimick_builder;
 
-// Kubanino @ https://public-class.com/
 public class ArtisticHammer extends Hammer
 {
     public static final String DEFAULT_COLOR = "Purple";
