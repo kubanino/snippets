@@ -8,7 +8,6 @@ import java.util.concurrent.Executors;
 
 import static java.util.concurrent.TimeUnit.SECONDS;
 
-// Kubanino @ https://public-class.com/
 // https://www.geeksforgeeks.org/java-util-concurrent-cyclicbarrier-java/
 public class CyclicBarrierExample
 {
