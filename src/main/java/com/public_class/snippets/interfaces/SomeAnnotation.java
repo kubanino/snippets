@@ -25,7 +25,6 @@ import java.lang.annotation.Target;
 
     The rest is ez
  */
-
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
 public @interface SomeAnnotation
