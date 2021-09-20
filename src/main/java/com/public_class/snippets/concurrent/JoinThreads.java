@@ -1,6 +1,5 @@
 package com.public_class.snippets.concurrent;
 
-// Kubanino @ https://public-class.com/
 public class JoinThreads
 {
     public static void main(String[] args) throws InterruptedException
