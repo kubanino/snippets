@@ -5,7 +5,6 @@ import java.nio.file.*;
 import java.nio.file.attribute.BasicFileAttributes;
 
 // http://tutorials.jenkov.com/java-nio/files.html
-// Kubanino @ https://public-class.com/
 public class FilesExample
 {
     public static void main(String[] args)
