@@ -5,10 +5,8 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 import java.util.concurrent.TimeUnit;
 
-// Kubanino @ https://public-class.com/
 public class InterruptionsWithExecutors
 {
-
     public static void main(String[] args) throws InterruptedException
     {
         ExecutorService executor = Executors.newSingleThreadExecutor();
