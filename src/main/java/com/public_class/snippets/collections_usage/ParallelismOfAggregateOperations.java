@@ -11,7 +11,6 @@ import java.util.concurrent.ConcurrentHashMap;
 import static java.util.stream.Collectors.groupingByConcurrent;
 import static java.util.stream.Collectors.summingInt;
 
-// Kubanino @ https://public-class.com/
 public class ParallelismOfAggregateOperations
 {
     private static final Random RANDOM = new Random();
