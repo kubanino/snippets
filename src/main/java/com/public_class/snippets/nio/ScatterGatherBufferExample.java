@@ -7,7 +7,6 @@ import java.nio.ByteBuffer;
 import java.nio.channels.FileChannel;
 
 // http://tutorials.jenkov.com/java-nio/channels.html
-// // Kubanino @ https://public-class.com/
 public class ScatterGatherBufferExample
 {
     public static void main(String[] args) throws IOException // for some convenience this exception is here
