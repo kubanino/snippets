@@ -6,7 +6,6 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.StampedLock;
 
 // https://netjs.blogspot.com/2016/08/stampedlock-in-java.html
-// Kubanino @ https://public-class.com/
 public class StampedLockExample
 {
     int c = 0;
