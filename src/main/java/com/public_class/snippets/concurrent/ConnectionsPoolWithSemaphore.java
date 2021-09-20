@@ -6,7 +6,6 @@ import java.util.concurrent.Semaphore;
 import java.util.concurrent.TimeUnit;
 
 // https://www.youtube.com/watch?v=KxTRsvgqoVQ&list=PLBB24CFB073F1048E&index=12
-// Kubanino @ https://public-class.com/
 public class ConnectionsPoolWithSemaphore
 {
     public static class Connection
