@@ -7,7 +7,6 @@ import static java.util.stream.Collectors.counting;
 import static java.util.stream.Collectors.groupingBy;
 import static java.util.stream.Stream.of;
 
-// Kubanino @ https://public-class.com/
 @SuppressWarnings("UnusedAssignment")
 public class CleanFunctionsInStreams
 {
