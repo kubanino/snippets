@@ -2,7 +2,6 @@ package com.public_class.snippets.concurrent;
 
 import static java.lang.Thread.currentThread;
 
-// Kubanino @ https://public-class.com/
 public class IncrementWithSanity
 {
     private static int VALUE = 0;
