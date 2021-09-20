@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.CountDownLatch;
 
-// Kubanino @ https://public-class.com/
 public class ExecutorsAndTwoLocks
 {
     private final Object lock1 = new Object();
