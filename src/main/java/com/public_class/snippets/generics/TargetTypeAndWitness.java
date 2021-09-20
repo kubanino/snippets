@@ -3,7 +3,6 @@ package com.public_class.snippets.generics;
 import java.util.Collections;
 import java.util.List;
 
-// Kubanino @ https://public-class.com/
 @SuppressWarnings({"WeakerAccess", "RedundantTypeArguments"})
 public class TargetTypeAndWitness
 {
