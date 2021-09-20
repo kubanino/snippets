@@ -3,7 +3,6 @@ package com.public_class.snippets.generics;
 import java.util.Arrays;
 import java.util.List;
 
-// Kubanino @ https://public-class.com/
 public class UsageOfCrazyJokerWildcard
 {
     // List<String> is a subtype of List<?> (joker without any bounds)
