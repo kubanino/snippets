@@ -2,7 +2,6 @@ package com.public_class.snippets.streams;
 
 import java.util.function.Consumer;
 
-// Kubanino @ https://public-class.com/
 public class BootstrapMethod
 {
     public static void main(String[] args)
