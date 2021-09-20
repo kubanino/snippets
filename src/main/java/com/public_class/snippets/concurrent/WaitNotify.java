@@ -3,7 +3,6 @@ package com.public_class.snippets.concurrent;
 import java.util.Scanner;
 
 // https://www.youtube.com/watch?v=gx_YUORX5vk&list=PLBB24CFB073F1048E&index=8
-// Kubanino @ https://public-class.com/
 public class WaitNotify
 {
     public static void main(String[] args)
