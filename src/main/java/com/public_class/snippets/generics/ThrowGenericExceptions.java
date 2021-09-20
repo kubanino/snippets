@@ -2,7 +2,6 @@ package com.public_class.snippets.generics;
 
 import java.lang.reflect.Type;
 
-// Kubanino @ https://public-class.com/
 public class ThrowGenericExceptions<T extends Exception>
 {
 
