@@ -3,7 +3,6 @@ package com.public_class.snippets.concurrent;
 import java.util.Random;
 
 // https://docs.oracle.com/javase/tutorial/essential/concurrency/guardmeth.html
-// Kubanino @ https://public-class.com/
 public class Producer implements Runnable
 {
     private Drop drop;
