@@ -3,7 +3,6 @@ package com.public_class.snippets.streams;
 import java.util.function.Consumer;
 
 // https://www.infoq.com/articles/Java-8-Lambdas-A-Peek-Under-the-Hood
-// Kubanino @ https://public-class.com/
 public class LambdasUnderTheHood
 {
     public static void main(String[] args)
