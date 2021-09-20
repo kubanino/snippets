@@ -1,6 +1,5 @@
 package com.public_class.snippets.concurrent;
 
-// Kubanino @ https://public-class.com/
 @SuppressWarnings("UnusedReturnValue")
 public class StringBufferVsStringBuilder
 {
