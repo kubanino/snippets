@@ -9,7 +9,6 @@ import static com.public_class.snippets.patterns.self_mimick_builder.Hammer.DEFA
 import static com.public_class.snippets.patterns.self_mimick_builder.Tool.DEFAULT_WEIGHT;
 import static org.junit.Assert.assertEquals;
 
-// Kubanino @ https://public-class.com/
 @RunWith(MockitoJUnitRunner.class)
 public class ArtisticHammerTest
 {
