@@ -4,7 +4,6 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.TimeUnit;
 
-// Kubanino @ https://public-class.com/
 public class SpamExecutor
 {
     public static void main(String[] args)
