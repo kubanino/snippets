@@ -1,6 +1,5 @@
 package com.public_class.snippets.patterns.self_mimick_builder;
 
-// Kubanino @ https://public-class.com/
 public class Classic
 {
     private String name;
