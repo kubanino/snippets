@@ -1,6 +1,5 @@
 package com.public_class.snippets.exceptions;
 
-// Kubanino @ https://public-class.com/
 public class ExceptionTranslator
 {
     private static IllegalStateException translateToIllegalStateException(Throwable exception)
