@@ -8,7 +8,6 @@ import java.nio.channels.Selector;
 import java.util.Set;
 
 // http://tutorials.jenkov.com/java-nio/channels.html
-// // Kubanino @ https://public-class.com/
 public class SelectorExample
 {
     public static void main(String[] args) throws IOException // for some convenience this exception is here
