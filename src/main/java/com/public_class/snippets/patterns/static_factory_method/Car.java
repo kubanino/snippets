@@ -6,7 +6,6 @@ import org.apache.commons.lang3.builder.HashCodeBuilder;
 import java.util.HashMap;
 import java.util.Map;
 
-// Kubanino @ https://public-class.com/
 public class Car
 {
     private static final String OPEL = "OPEL";
