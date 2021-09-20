@@ -3,7 +3,6 @@ package com.public_class.snippets.generics;
 import java.util.ArrayList;
 import java.util.List;
 
-// Kubanino @ https://public-class.com/
 public class DeduceParameterTypeAndAddOneMoreElement<T>
 {
     // public static final T someType; <-- can not do this as well
