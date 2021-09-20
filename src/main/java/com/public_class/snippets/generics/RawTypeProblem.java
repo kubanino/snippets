@@ -7,7 +7,6 @@ import java.util.List;
  * You can prevent it from happening passing -Xlint:unchecked to VM options
  */
 
-// Kubanino @ https://public-class.com/
 public class RawTypeProblem
 {
     @SuppressWarnings("unchecked")
