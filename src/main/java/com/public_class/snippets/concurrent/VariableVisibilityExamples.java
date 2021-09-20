@@ -2,7 +2,6 @@ package com.public_class.snippets.concurrent;
 
 import static java.lang.System.identityHashCode;
 
-// Kubanino @ https://public-class.com/
 public class VariableVisibilityExamples
 {
     public static void main(String[] args)
