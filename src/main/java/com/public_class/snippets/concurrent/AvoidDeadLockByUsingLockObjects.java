@@ -8,7 +8,6 @@ import java.util.concurrent.locks.ReentrantLock;
 import static java.util.concurrent.Executors.newFixedThreadPool;
 
 // https://docs.oracle.com/javase/tutorial/essential/concurrency/newlocks.html
-// Kubanino @ https://public-class.com/
 public class AvoidDeadLockByUsingLockObjects
 {
     public static void main(String[] args)
