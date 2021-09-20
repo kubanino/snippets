@@ -5,7 +5,6 @@ import java.util.Set;
 import java.util.TreeMap;
 import java.util.TreeSet;
 
-// Kubanino @ https://public-class.com/
 public class TreeSetVsTreeMap
 {
     public static final Map<String, String> TREE_MAP = new TreeMap<>();
