@@ -14,7 +14,6 @@ import java.util.Objects;
  */
 
 
-// Kubanino @ https://public-class.com/
 public class SimpleGeneric<T, S>
 {
     private final T innerObject;
