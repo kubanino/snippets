@@ -6,7 +6,6 @@ import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
 // https://www.youtube.com/watch?v=fjMTaVykOpc&list=PLBB24CFB073F1048E&index=10
-// Kubanino @ https://public-class.com/
 public class ReentrantLockShowcase
 {
     private int count = 0;
