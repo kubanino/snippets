@@ -1,9 +1,7 @@
 package com.public_class.snippets.concurrent;
 
-// Kubanino @ https://public-class.com/
 public class Interruptions
 {
-
     public static void main(String[] args) throws InterruptedException
     {
         Thread taskThread = new Thread(giveMeCoolTask());
