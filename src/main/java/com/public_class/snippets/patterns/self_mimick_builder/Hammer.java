@@ -1,6 +1,5 @@
 package com.public_class.snippets.patterns.self_mimick_builder;
 
-// Kubanino @ https://public-class.com/
 public abstract class Hammer extends Tool
 {
     public static final int DEFAULT_LENGTH = 13;
