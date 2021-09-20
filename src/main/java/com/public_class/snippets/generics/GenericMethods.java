@@ -1,6 +1,5 @@
 package com.public_class.snippets.generics;
 
-// Kubanino @ https://public-class.com/
 @SuppressWarnings({"WeakerAccess", "RedundantTypeArguments"})
 public class GenericMethods
 {
