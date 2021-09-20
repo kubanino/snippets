@@ -5,7 +5,6 @@ import java.nio.CharBuffer;
 import java.nio.charset.Charset;
 
 // https://www.concretepage.com/java/example-charset-java-nio
-// // Kubanino @ https://public-class.com/
 public class CharsetExample
 {
     public static void main(String[] args)
