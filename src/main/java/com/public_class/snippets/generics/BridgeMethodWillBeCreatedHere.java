@@ -1,7 +1,6 @@
 package com.public_class.snippets.generics;
 
 // https://docs.oracle.com/javase/tutorial/java/generics/bridgeMethods.html
-// Kubanino @ https://public-class.com/
 public class BridgeMethodWillBeCreatedHere<T>
 {
     public T data;
