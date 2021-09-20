@@ -10,7 +10,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 
 // http://tutorials.jenkov.com/java-xml/sax.html
-// Kubanino @ https://public-class.com/
 public class DomExample
 {
     public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException
