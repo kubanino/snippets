@@ -1,6 +1,5 @@
 package com.public_class.snippets.exceptions;
 
-// Kubanino @ https://public-class.com/
 public class ExceptionToRestoreSystemState
 {
     private static void causeBadEffect() throws IllegalAccessException
