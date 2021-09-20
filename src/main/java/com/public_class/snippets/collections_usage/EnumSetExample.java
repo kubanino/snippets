@@ -3,7 +3,6 @@ package com.public_class.snippets.collections_usage;
 import java.util.EnumSet;
 import java.util.Set;
 
-// Kubanino @ https://public-class.com/
 public class EnumSetExample
 {
     private enum Days
