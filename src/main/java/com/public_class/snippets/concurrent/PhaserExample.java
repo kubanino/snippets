@@ -6,7 +6,6 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Phaser;
 import java.util.concurrent.TimeUnit;
 
-// Kubanino @ https://public-class.com/
 // https://www.baeldung.com/java-phaser
 public class PhaserExample
 {
