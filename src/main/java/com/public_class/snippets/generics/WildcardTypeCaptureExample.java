@@ -2,7 +2,6 @@ package com.public_class.snippets.generics;
 
 import java.util.List;
 
-// Kubanino @ https://public-class.com/
 public class WildcardTypeCaptureExample
 {
     // the problem is, that list is declared as List<?> and You can not put anything there
