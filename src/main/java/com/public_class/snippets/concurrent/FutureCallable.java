@@ -5,7 +5,6 @@ import java.util.Random;
 import java.util.concurrent.*;
 
 // https://www.youtube.com/watch?v=KxTRsvgqoVQ&list=PLBB24CFB073F1048E&index=12
-// Kubanino @ https://public-class.com/
 public class FutureCallable
 {
     public static void main(String[] args)
