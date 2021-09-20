@@ -11,7 +11,6 @@ import java.nio.file.StandardOpenOption;
 import java.util.concurrent.Future;
 
 // http://tutorials.jenkov.com/java-nio/asynchronousfilechannel.html
-// Kubanino @ https://public-class.com/
 public class AsynchronousFileChannelExample
 {
     public static void main(String[] args)
