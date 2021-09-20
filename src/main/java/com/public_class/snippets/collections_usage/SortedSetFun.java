@@ -5,7 +5,6 @@ import java.util.TreeSet;
 
 import static java.lang.String.valueOf;
 
-// Kubanino @ https://public-class.com/
 public class SortedSetFun
 {
     public static void main(String[] args)
