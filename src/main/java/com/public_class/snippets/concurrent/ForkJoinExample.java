@@ -3,7 +3,6 @@ package com.public_class.snippets.concurrent;
 import java.util.concurrent.ForkJoinPool;
 import java.util.concurrent.RecursiveAction;
 
-// Kubanino @ https://public-class.com/
 public class ForkJoinExample
 {
     public static void main(String[] args)
