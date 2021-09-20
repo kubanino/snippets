@@ -5,7 +5,6 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 
 // http://tutorials.jenkov.com/java-nio/path.html
-// Kubanino @ https://public-class.com/
 public class PathExample
 {
     public static void main(String[] args)
