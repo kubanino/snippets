@@ -13,7 +13,6 @@ import java.io.IOException;
 import java.io.InputStream;
 
 // http://tutorials.jenkov.com/java-xml/sax.html
-// Kubanino @ https://public-class.com/
 public class SaxParserExample
 {
     public static void main(String[] args) throws IOException, ParserConfigurationException, SAXException
